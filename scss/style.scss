@@ -1,0 +1,156 @@
+
+@import "variables"; 
+@import "normalize";
+@import "fonts";
+
+@mixin trans {
+	transition: all .05s;
+	-webkit-transition: all .05s; /* Safari */
+	position: relative;
+	top: 5px;
+}
+
+html, body {
+	background: $main;
+}
+
+h1, h2, h3, p {
+	color: $wh;
+	font-family: $s-thin;
+}
+
+h2 {
+	font-size: 52px;
+	font-weight: normal;
+	line-height: 0; /* explore this more, it seems like this shouldnt adjiust this */
+	margin-bottom: 20px;
+	font-family: $s-thin;
+}
+
+.button {
+	background: $bl;
+	color: $wh;
+	padding: 20px;
+	font-size: 30px;
+	font-family: $s-norm;
+	font-weight: normal;
+  transition: all .12s;
+-webkit-transition: all .12s; /* Safari */
+	&:hover {
+		background: #000;
+ @include trans;
+	}
+	span {
+		font-family: $slab;
+		font-size: 36px;
+		font-weight: thin;
+		position: relative;
+		top: 1px;
+		left: 5px;
+	}
+}
+
+.contain {
+	text-align: center;
+	max-width: $max-w;
+	margin:  0 auto;
+}
+
+header {
+	background: url('../images/header-pattern.jpg');
+	height: 213px;
+	border-bottom: 1px solid white;
+}
+
+.logo {
+	width: 253px;
+	margin-top: 20px;
+	position: relative;
+	z-index: 5;
+	/* don't forget to provide fallback for SVG */
+}
+
+nav {
+	height: 30px;
+	position: relative;
+	bottom: 108px;
+	font-family: $cuba;
+	a {
+		color: $main;
+		font-size: 30px;
+		&:hover { color: $bl;
+    @include trans;
+	 }
+
+	}
+	.nav-left {
+		float: left;
+		margin-left: 40px;
+		a {
+			margin-right: 80px;
+		}
+	}
+	.nav-right {
+		float: right;
+		a {
+			margin-left: 80px;
+		}
+	}
+}
+
+.page-wrap {
+	max-width: $max-w;
+	width: 98%;
+	margin: 0 auto;
+	.contain.home {
+	width: 65%;
+	position: relative;
+	top: 70px;
+	&:before {
+		content: '{';
+		font-family: $s-thin;
+		position: absolute;
+		bottom: -70px;
+		color: $wh;
+				opacity: .2;
+		left: -100px;
+		font-size: 295px;
+	}
+	&:after {
+		content: '}';
+				font-family: $s-thin;
+		position: absolute;
+		bottom: -70px;
+		color: $wh;
+		opacity: .2;
+		right: -100px;
+		font-size: 295px;
+	}
+	p {
+		font-size: 26px;
+		line-height: 38px;
+		}
+	}
+}
+
+.kalee {
+width: 120px;
+height: 120px;
+margin: 25px auto;
+	img {
+		width: 120px;
+		height: 120px;
+	}
+
+}
+
+figure span {
+	text-decoration: strike-through;
+}
+
+footer {
+	margin-top: 200px;
+	clear: both;
+	text-align: center;
+}
+
