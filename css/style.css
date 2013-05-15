@@ -557,6 +557,10 @@ html, body {
   background: url("../images/bg-main.jpg") #2e5e68;
 }
 
+.about .page-wrap {
+  max-width: 1125px;
+}
+
 h1, h2, h3, p {
   color: white;
   font-family: "Solomon-Thin";
@@ -694,6 +698,37 @@ nav .nav-right a {
 .kalee img {
   width: 120px;
   height: 120px;
+}
+
+.block h3 {
+  font-size: 26px;
+  width: 62%;
+  text-align: left;
+}
+.block p {
+  font-size: 18px;
+}
+.block p.special {
+  font-family: "citizen_slabregular";
+  font-size: 42px;
+  text-align: center;
+}
+.block.blue {
+  background: url("../images/bg-block-blue.jpg") #3ea7be;
+  height: 535px;
+}
+.block.blue .left {
+  float: left;
+  margin-left: 20px;
+  width: 40%;
+}
+.block.blue .left img {
+  padding: 50px 0 0 40px;
+}
+.block.blue .right {
+  float: right;
+  background: gray;
+  width: 50%;
 }
 
 figure span {

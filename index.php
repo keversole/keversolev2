@@ -7,8 +7,7 @@
 			</div>
 		<div class="contain home">
 		<h2>I'm Kalee Eversole.</h2>
-		<p>
-			I live and do web development out of the Hoosier state.
+		<p>I live and do web development out of the Hoosier state.
 			I have a husband, a kid and a big, fat desire to make web sites
 			that don't suck.
 		</p>
