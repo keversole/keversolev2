@@ -554,7 +554,7 @@ table {
 }
 
 html, body {
-  background: #2e5e68;
+  background: url("../images/bg-main.jpg") #2e5e68;
 }
 
 h1, h2, h3, p {
@@ -606,7 +606,7 @@ h2 {
 }
 
 header {
-  background: url("../images/header-pattern.jpg");
+  background: url("../images/bg-header.jpg");
   height: 213px;
   border-bottom: 1px solid white;
 }

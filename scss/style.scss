@@ -11,7 +11,7 @@
 }
 
 html, body {
-	background: $main;
+	background: url('../images/bg-main.jpg') $main;
 }
 
 h1, h2, h3, p {
@@ -57,7 +57,7 @@ h2 {
 }
 
 header {
-	background: url('../images/header-pattern.jpg');
+	background: url('../images/bg-header.jpg');
 	height: 213px;
 	border-bottom: 1px solid white;
 }
