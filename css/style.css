@@ -560,6 +560,10 @@ html, body {
 .about .page-wrap {
   max-width: 1125px;
 }
+.about .page-wrap h2 {
+  text-align: center;
+  margin: 60px 0 60px;
+}
 
 h1, h2, h3, p {
   color: white;
@@ -572,6 +576,19 @@ h2 {
   line-height: 0;
   /* explore this more, it seems like this shouldnt adjiust this */
   margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "Solomon-Normal";
+  color: #fff;
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: right;
+}
+h4 span {
+  font-size: 16px;
+  display: block;
   font-family: "Solomon-Thin";
 }
 
@@ -602,6 +619,10 @@ h2 {
   top: 1px;
   left: 5px;
 }
+.button.small {
+  font-size: 18px;
+  padding: 15px;
+}
 
 .contain {
   text-align: center;
@@ -609,6 +630,9 @@ h2 {
   margin: 0 auto;
 }
 
+/*************************
+     HEADER
+**************************/
 header {
   background: url("../images/bg-header.jpg");
   height: 213px;
@@ -700,35 +724,96 @@ nav .nav-right a {
   height: 120px;
 }
 
+/*************************
+     BLOCKS
+**************************/
 .block h3 {
   font-size: 26px;
-  width: 62%;
   text-align: left;
+  font-family: "Solomon-Book";
 }
 .block p {
   font-size: 18px;
+  margin-bottom: 40px;
+  width: 95%;
+  line-height: 28px;
 }
 .block p.special {
   font-family: "citizen_slabregular";
   font-size: 42px;
-  text-align: center;
+  margin: 20px 0 0 110px;
 }
-.block.blue {
-  background: url("../images/bg-block-blue.jpg") #3ea7be;
-  height: 535px;
-}
-.block.blue .left {
+.block .left {
   float: left;
   margin-left: 20px;
   width: 40%;
 }
-.block.blue .left img {
+.block .left img {
   padding: 50px 0 0 40px;
 }
-.block.blue .right {
+.block .right {
   float: right;
-  background: gray;
-  width: 50%;
+  width: 57%;
+  padding: 45px 0 0 0;
+}
+.block.blue {
+  background: url("../images/bg-block-blue.jpg") #3ea7be;
+  float: left;
+}
+
+/*************************
+     WORK BUTTON
+**************************/
+.work {
+  background: #3e9e77;
+  color: #000;
+  font-family: "CubanoRegular";
+  font-size: 60px;
+  float: right;
+  z-index: 100;
+  width: 80%;
+  position: relative;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  border-top: 6px solid #53bc91;
+  border-left: 6px solid #53bc91;
+}
+.work:before {
+  content: "";
+  background: url("../images/bg-block-green.jpg") #66c39d;
+  z-index: -20;
+  position: absolute;
+  height: 170px;
+  width: 350px;
+  left: 15%;
+  border-radius: 355px 355px 0 0;
+  -moz-border-radius: 355px 355px 0 0;
+  -webkit-border-radius: 355px 355px 0 0;
+  /*fix with compass */
+}
+.work:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  border-right: 6px solid #30795b;
+  border-bottom: 6px solid #30795b;
+}
+.work:hover {
+  color: #111;
+  border-top: 6px solid #30795b;
+  border-left: 6px solid #30795b;
+}
+.work:hover:after {
+  border-right: 6px solid #53bc91;
+  border-bottom: 6px solid #53bc91;
+}
+.work:hover:before {
+  background: #78caa9;
 }
 
 figure span {
