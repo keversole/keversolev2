@@ -557,10 +557,10 @@ html, body {
   background: url("../images/bg-main.jpg") #2e5e68;
 }
 
-.about .page-wrap {
+.about .page-wrap, .contact .page-wrap {
   max-width: 1125px;
 }
-.about .page-wrap h2 {
+.about .page-wrap h2, .contact .page-wrap h2 {
   text-align: center;
   margin: 60px 0 60px;
 }

@@ -5,7 +5,7 @@
 	</div>
 	<div class="nav-right">
 		<a href="work">Work</a>
-		<a href="contact">Contact</a>
+		<a href="contact.php">Contact</a>
 		</div>
 	</div>
 </nav>
