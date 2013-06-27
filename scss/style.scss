@@ -1,7 +1,22 @@
 
 @import "variables"; 
 @import "normalize";
+@import "icon-fonts";
 @import "fonts";
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 @mixin trans {
 	transition: all .05s;
@@ -14,19 +29,31 @@ html, body {
 	background: url('../images/bg-main.jpg') $main;
 }
 
-
  .about, .contact {
 	.page-wrap {
 		max-width: 1125px;	
 		h2 {
 		text-align: center;
-		margin: 60px 0 60px;
+		margin: 50px 0 50px;
+		}
+		.block.blue {
+			.left {
+				box-sizing: border-box;
+				h3 {
+					text-align: right;
+					padding: 40px 20px 0 0;
+				}
+			}
 		}
 	}
 }
 
-h1, h2, h3, p {
-	color: $wh;
+.howdy {
+	margin-top: -32px;
+}
+
+h1, h2, h3, p, ul {
+	color: $white;
 	font-family: $s-thin;
 }
 
@@ -36,6 +63,17 @@ h2 {
 	line-height: 0; /* explore this more, it seems like this shouldnt adjiust this */
 	margin-bottom: 20px;
 }
+
+h3 {
+	font-size: 26px;
+	font-family: $s-book;
+	&.break {
+		font-size: 48px;
+		font-weight: normal;
+		text-align: center;
+	}
+}
+
 
 h4 {
 	font-family: $s-norm;
@@ -51,9 +89,16 @@ h4 {
 	}
 }
 
+ul {
+	list-style: none;
+	background: pink;
+}
+
+dl dd 
+
 .button {
-	background: $bl;
-	color: $wh;
+	background: $blue;
+	color: $white;
 	padding: 20px;
 	font-size: 30px;
 	font-family: $s-norm;
@@ -78,20 +123,21 @@ h4 {
 		}
 	}
 
-
 .contain {
 	text-align: center;
 	max-width: $max-w;
 	margin:  0 auto;
 }
 
-/*************************
-     HEADER
-**************************/
+/*******************************
+
+	[#] HEADER 
+
+********************************/
 
 header {
 	background: url('../images/bg-header.jpg');
-	height: 213px;
+	height: 190px;
 	border-bottom: 1px solid white;
 }
 
@@ -103,6 +149,12 @@ header {
 	/* don't forget to provide fallback for SVG */
 }
 
+/*******************************
+
+	[#] MAIN NAVIGATION 
+
+********************************/
+
 nav {
 	height: 30px;
 	position: relative;
@@ -111,10 +163,9 @@ nav {
 	a {
 		color: $main;
 		font-size: 30px;
-		&:hover { color: $bl;
+		&:hover { color: $blue;
     @include trans;
 	 }
-
 	}
 	.nav-left {
 		float: left;
@@ -144,7 +195,7 @@ nav {
 		font-family: $s-thin;
 		position: absolute;
 		bottom: -70px;
-		color: $wh;
+		color: $white;
 				opacity: .2;
 		left: -100px;
 		font-size: 295px;
@@ -154,7 +205,7 @@ nav {
 				font-family: $s-thin;
 		position: absolute;
 		bottom: -70px;
-		color: $wh;
+		color: $white;
 		opacity: .2;
 		right: -100px;
 		font-size: 295px;
@@ -176,21 +227,22 @@ margin: 25px auto;
 	}
 }
 
-/*************************
-     BLOCKS
-**************************/
+/*******************************
+
+	[#] LAYOUT 
+
+********************************/
 
 .block { 
-	h3 {
-		font-size: 26px;
-		text-align: left;
-		font-family: $s-book;
-	}
+	margin-bottom: 30px;
 	p {
 		font-size: 18px;
 		margin-bottom: 40px;
 		width: 95%;
 		line-height: 28px;
+		&:last-child {
+			margin-bottom: 0;
+		}
 		&.special {
 			font-family: $slab;
 			font-size: 42px;
@@ -198,9 +250,7 @@ margin: 25px auto;
 		}
 	}
 	.left {
-
 			float: left;
-			margin-left: 20px;
 			width: 40%;
 			img {
 				padding: 50px 0 0 40px;
@@ -209,26 +259,84 @@ margin: 25px auto;
 	.right {
 			float: right;			
 			width: 57%;
-			padding: 45px 0 0 0;
 		}
 	&.blue {
 		background: $block;
+		padding: 20px;
 		float: left;
+	}
+	&.full {
+		width: 100%;
 	}
 }
 
+/*******************************
+
+	[#] LISTS 
+
+********************************/
+
+dl {
+	dt {
+	font-family: $cuba;
+	font-size: 30px;
+	background: $white;
+	padding: 10px;
+	text-align: right;
+	display: block;
+	float: left;
+	position: relative;
+	top: -10px;
+	left: -5px;
+	margin-right: 20px;
+}
+	dd {
+		font-family: $s-book;
+		font-size: 22px;
+		padding: 10px;
+		color: $white;
+		width: auto;
+	}
+}
+
+.madeby {
+	margin: 0 0 40px;
+}
+
+dd.powered {
+	background: #BE3E40;
+	width: 56%;
+}
+
+dd.life {
+	background: #7ABD46;
+	width: 92%;
+}
+
+dd.managed {
+	background: #44BFBA;
+	width: 39%;
+}
+
+dd.works {
+	background: #BF9A45;
+	width: 75%;
+}
+
+	
 /*************************
      WORK BUTTON
 **************************/
 
 .work {
 	background: $green;
-	color: #000;
+	color: #fff;
 	font-family: $cuba;
-	font-size: 60px;
+	font-size: 55px;
 	float: right;
 	z-index: 100;
 	width: 80%;
+	margin-right: 5px;
 	position: relative;
 	padding: 20px 0 20px 0;
 	text-align: center;
@@ -239,12 +347,12 @@ margin: 25px auto;
 		background: url('../images/bg-block-green.jpg') lighten($green, 15%);
 		z-index: -20;
 		position: absolute;
-		 height: 170px;
+		 height: 150px;
      width: 350px;
      left: 15%;
-     border-radius: 355px 355px 0 0;
-     -moz-border-radius: 355px 355px 0 0;
-     -webkit-border-radius: 355px 355px 0 0;
+     border-radius: 345px 345px 0 0;
+     -moz-border-radius: 345px 345px 0 0;
+     -webkit-border-radius: 345px 345px 0 0;
      /*fix with compass */
 	}
 	 &:after {
@@ -271,17 +379,75 @@ margin: 25px auto;
 	&:hover:before {
 		background: lighten($green, 20%);
 	}
+}
 
+.formfloat {
+	float: left;
+	margin-bottom: 20px;
+}
 
+label {
+	color: $white;
+	font-size: 24px;
+	font-family: $slab;
+	padding: 0 0 20px 0;
+}
+
+input, textarea {
+	margin-top: 10px;
+	width: 60%;
+	min-width: 500px;
+	box-sizing: border-box;
+}
+
+input {
+	float: left;
+	padding: 20px;
+}
+
+input, textarea {
+	width: 100;
 }
 
 figure span {
 	text-decoration: strike-through;
 }
 
+.social {
+	list-style: none;
+	li {
+		padding-bottom: 20px;
+		  width: 80px; 
+   height: 50px; 
+   background: lighten($blue, 0%);
+   margin: 3px 0 0 30px;
+   /* Rotate */
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   /* Rotate Origin */
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+   &:hover {
+   	background: red;
+   	cursor: pointer;
+   }
+   a {
+   	color: $white;
+   }
+	}
+	float: right;
+}
+
 footer {
-	margin-top: 200px;
 	clear: both;
+	margin-bottom: 200px;
 	text-align: center;
 }
+
 

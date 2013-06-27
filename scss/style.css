@@ -536,7 +536,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-facebook, .icon-instagram, .icon-twitter, .icon-mobile, .icon-image, .icon-lightning, .icon-user, .icon-icon-frank {
+.icon-facebook, .icon-instagram, .icon-twitter, .icon-mobile, .icon-image, .icon-lightning, .icon-user {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -573,10 +573,6 @@ you can use the generic selector below, but it's slower:
 
 .icon-user:before {
   content: "\e00c";
-}
-
-.icon-icon-frank:before {
-  content: "\e004";
 }
 
 @font-face {
@@ -935,22 +931,22 @@ dl dd {
 
 dd.powered {
   background: #BE3E40;
-  width: 56%;
+  width: 53%;
 }
 
 dd.life {
   background: #7ABD46;
-  width: 92%;
+  width: 88%;
 }
 
 dd.managed {
   background: #44BFBA;
-  width: 39%;
+  width: 36%;
 }
 
 dd.works {
   background: #BF9A45;
-  width: 75%;
+  width: 72%;
 }
 
 /*************************

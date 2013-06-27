@@ -4,7 +4,7 @@
 		<a href="about.php">About</a>
 	</div>
 	<div class="nav-right">
-		<a href="work">Work</a>
+		<a href="work.php">Work</a>
 		<a href="contact.php">Contact</a>
 		</div>
 	</div>
