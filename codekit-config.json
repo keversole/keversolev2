@@ -81,14 +81,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/style.css" : {
+    "\/inc\/nav.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
+      "inputAbbreviatedPath" : "\/inc\/nav.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/images\/about-kalee.png" : {
       "ignoreWasSetByUser" : 0,
@@ -101,14 +101,14 @@
       "initialSize" : 201157,
       "fileType" : 8192
     },
-    "\/inc\/nav.php" : {
+    "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/nav.php",
+      "inputAbbreviatedPath" : "\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/about.php" : {
       "ignoreWasSetByUser" : 0,
