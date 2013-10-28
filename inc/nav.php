@@ -1,10 +1,10 @@
 <nav>
-	<div class="nav-left">
-		<a href="index.php">Home</a>
-		<a href="about.php">About</a>
+	<div class="nav-left cl-effect-13">
+		<a href="index.php">About</a>
+		<a href="about.php">Work</a>
 	</div>
-	<div class="nav-right">
-		<a href="work.php">Work</a>
+	<div class="nav-right cl-effect-13">
+		<a href="work.php">Blog</a>
 		<a href="contact.php">Contact</a>
 		</div>
 	</div>

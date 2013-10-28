@@ -1,0 +1,84 @@
+
+nav {
+	height: 30px;
+	margin-top: -7%;
+	font-family: $kin-slbk;
+
+
+	a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+		color: $main;
+		font-size: 28px;
+		display: inline-block;
+
+		&:hover { 
+			color: $blue;
+
+ 
+	 	}
+	}
+
+	.nav-left {
+		float: left;
+		margin-left: 120px;
+
+		a {
+			margin-right: 80px;
+		}
+	}
+	.nav-right {
+		margin-right: 120px;
+		float: right;
+
+		a {
+			margin-left: 80px;
+		}
+	}
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+
+/* Effect 13: three circles */
+.cl-effect-13 a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	color: transparent;
+	content: '♦';
+	text-shadow: 0 0 transparent;
+	font-size: .7em;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before {
+	color: $l-turq;
+	text-shadow: 10px 0 $l-blue, -10px 0 $l-green;
+}
+

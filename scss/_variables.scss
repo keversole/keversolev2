@@ -2,14 +2,26 @@
 $main: #2e5e68;
 $white: #fff;
 $blue: #222;
+$blue-light: #41BCC8;
 $green: #3e9e77;
 $h2: 22px;
-$max-w: 960px;
+
+$l-green: #88D1B5;
+$l-turq: #63C0D2;
+$l-blue: #87CEE8;
 /* Font Families */
+
+
+/*Remove all of Solomon */
 $s-norm: 'Solomon-Normal';
 $s-book: 'Solomon-Book';
 $s-bold: 'Solomon-Bold';
 $s-thin: 'Solomon-Thin';
+
 $cuba: 	'CubanoRegular';
 $slab: 'citizen_slabregular';
 $block: url('../images/bg-block-blue.jpg') #3ea7be;
+$kin-bold: 'klinic_slabbold';
+$kin-slbk: 'klinic_slabbook';
+$kin-light:'klinic_slablight';
+$kin-med: 'klinic_slabmedium';

@@ -1,5 +1,6 @@
 /* Font Families */
-/* normalize.css v1.1.1 | MIT License | git.io/normalize */
+/*Remove all of Solomon */
+/*! normalize.css v1.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -510,6 +511,281 @@ table {
   border-spacing: 0;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.container:after {
+  /* Or @extend clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+.container [class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.col-1 {
+  width: 6.25%;
+}
+
+.col-2 {
+  width: 14.5833333333%;
+}
+
+.col-3 {
+  width: 22.9166666667%;
+}
+
+.col-4 {
+  width: 31.25%;
+}
+
+.col-5 {
+  width: 39.5833333333%;
+}
+
+.col-6 {
+  width: 47.9166666667%;
+}
+
+.col-7 {
+  width: 56.25%;
+}
+
+.col-8 {
+  width: 64.5833333333%;
+}
+
+.col-9 {
+  width: 72.9166666667%;
+}
+
+.col-10 {
+  width: 81.25%;
+}
+
+.col-11 {
+  width: 89.5833333333%;
+}
+
+.col-12 {
+  width: 97.9166666667%;
+}
+
+/* Opt-in outside padding */
+.container-pad {
+  padding: 20px 0 20px 20px;
+}
+.container-pad [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.outter {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 150px;
+}
+
+.inner {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 0 0 20px;
+}
+
+.about .outter {
+  max-height: 490px;
+  background: url("../images/clouds2.jpg") no-repeat center center fixed;
+  width: 100%;
+}
+.about .inner {
+  height: 495px;
+}
+
+.contact .outter {
+  max-height: 665px;
+  background: url("../images/sky-contact.jpg") no-repeat center center fixed;
+}
+.contact .inner {
+  height: 670px;
+}
+
+.img-profile {
+  margin: 40px 0 0 40px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  border-left: 3px solid #87cee8;
+  outline: 0;
+  border-bottom: 3px solid #87cee8;
+  color: #fff;
+  padding: 20px;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+button:first-child {
+  margin-left: 0;
+}
+
+figure {
+  position: relative;
+  z-index: 0;
+}
+figure img {
+  background: #88d1b6;
+  padding: 5px 58px 20px 58px;
+  position: relative;
+  z-index: 1000;
+}
+figure figcaption {
+  background: #b9553e;
+  position: relative;
+  top: -26px;
+  width: 477px;
+  z-index: 500;
+}
+figure figcaption p {
+  background: #fff;
+  color: #000;
+  padding: 150px 0 0 55px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 200;
+  font-size: 20px;
+  position: absolute;
+  width: 200px;
+  float: left;
+  top: -367px;
+  left: 265px;
+  height: 347px;
+}
+figure figcaption ul {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  padding-top: 20px;
+}
+figure figcaption ul li {
+  padding-bottom: 20px;
+}
+
+/* Solomon Family */
+@font-face {
+  font-family: 'Solomon-Book';
+  src: url("webfonts/264F9E_6_0.eot");
+  src: url("webfonts/264F9E_6_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_6_0.woff") format("woff"), url("webfonts/264F9E_6_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Solomon-Bold';
+  src: url("webfonts/264F9E_7_0.eot");
+  src: url("webfonts/264F9E_7_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_7_0.woff") format("woff"), url("webfonts/264F9E_7_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Solomon-Thin';
+  src: url("webfonts/264F9E_5_0.eot");
+  src: url("webfonts/264F9E_5_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_5_0.woff") format("woff"), url("webfonts/264F9E_5_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Solomon-Normal';
+  src: url("webfonts/264F9E_A_0.eot");
+  src: url("webfonts/264F9E_A_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_A_0.woff") format("woff"), url("webfonts/264F9E_A_0.ttf") format("truetype");
+}
+
+/* Cubano */
+@font-face {
+  font-family: 'CubanoRegular';
+  src: url("cubano-regular-webfont.eot");
+  src: url("cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("cubano-regular-webfont.woff") format("woff"), url("cubano-regular-webfont.ttf") format("truetype"), url("cubano-regular-webfont.svg#CubanoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Citizen Slab  */
+@font-face {
+  font-family: 'citizen_slabregular';
+  src: url("citizen_slab-webfont.eot");
+  src: url("citizen_slab-webfont.eot?#iefix") format("embedded-opentype"), url("citizen_slab-webfont.woff") format("woff"), url("citizen_slab-webfont.ttf") format("truetype"), url("citizen_slab-webfont.svg#citizen_slabregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'klinic_slabbold';
+  src: url("klinicslabbold-webfont.eot");
+  src: url("klinicslabbold-webfont.eot?#iefix") format("embedded-opentype"), url("klinicslabbold-webfont.woff") format("woff"), url("klinicslabbold-webfont.ttf") format("truetype"), url("klinicslabbold-webfont.svg#klinic_slabbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'klinic_slabbook';
+  src: url("klinicslabbook-webfont.eot");
+  src: url("klinicslabbook-webfont.eot?#iefix") format("embedded-opentype"), url("klinicslabbook-webfont.woff") format("woff"), url("klinicslabbook-webfont.ttf") format("truetype"), url("klinicslabbook-webfont.svg#klinic_slabbook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'klinic_slablight';
+  src: url("klinicslablight-webfont.eot");
+  src: url("klinicslablight-webfont.eot?#iefix") format("embedded-opentype"), url("klinicslablight-webfont.woff") format("woff"), url("klinicslablight-webfont.ttf") format("truetype"), url("klinicslablight-webfont.svg#klinic_slablight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'klinic_slabmedium';
+  src: url("klinicslabmedium-webfont.eot");
+  src: url("klinicslabmedium-webfont.eot?#iefix") format("embedded-opentype"), url("klinicslabmedium-webfont.woff") format("woff"), url("klinicslabmedium-webfont.ttf") format("truetype"), url("klinicslabmedium-webfont.svg#klinic_slabmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  background: url(../images/bg.jpg);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* close commented backslash hack */
 @font-face {
   font-family: 'icomoon';
   src: url("fonts/icomoon.eot");
@@ -579,119 +855,25 @@ you can use the generic selector below, but it's slower:
   content: "\e004";
 }
 
-@font-face {
-  font-family: 'typicons';
-  src: url("css/typicons.eot");
-  src: url("css/typicons.eot?#iefix") format("embedded-opentype"), url("css/typicons.woff") format("woff"), url("css/typicons.ttf") format("truetype"), url("css/typicons.svg#typicons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Solomon Family */
-@font-face {
-  font-family: 'Solomon-Book';
-  src: url("webfonts/264F9E_6_0.eot");
-  src: url("webfonts/264F9E_6_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_6_0.woff") format("woff"), url("webfonts/264F9E_6_0.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Solomon-Bold';
-  src: url("webfonts/264F9E_7_0.eot");
-  src: url("webfonts/264F9E_7_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_7_0.woff") format("woff"), url("webfonts/264F9E_7_0.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Solomon-Thin';
-  src: url("webfonts/264F9E_5_0.eot");
-  src: url("webfonts/264F9E_5_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_5_0.woff") format("woff"), url("webfonts/264F9E_5_0.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Solomon-Normal';
-  src: url("webfonts/264F9E_A_0.eot");
-  src: url("webfonts/264F9E_A_0.eot?#iefix") format("embedded-opentype"), url("webfonts/264F9E_A_0.woff") format("woff"), url("webfonts/264F9E_A_0.ttf") format("truetype");
-}
-
-/* Cubano */
-@font-face {
-  font-family: 'CubanoRegular';
-  src: url("cubano-regular-webfont.eot");
-  src: url("cubano-regular-webfont.eot?#iefix") format("embedded-opentype"), url("cubano-regular-webfont.woff") format("woff"), url("cubano-regular-webfont.ttf") format("truetype"), url("cubano-regular-webfont.svg#CubanoRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Citizen Slab  */
-@font-face {
-  font-family: 'citizen_slabregular';
-  src: url("citizen_slab-webfont.eot");
-  src: url("citizen_slab-webfont.eot?#iefix") format("embedded-opentype"), url("citizen_slab-webfont.woff") format("woff"), url("citizen_slab-webfont.ttf") format("truetype"), url("citizen_slab-webfont.svg#citizen_slabregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
-/* start commented backslash hack \*/
-* html .clearfix {
-  height: 1%;
-}
-
-.clearfix {
-  display: block;
-}
-
-/* close commented backslash hack */
-html, body {
-  background: url("../images/bg-main.jpg") #2e5e68;
-}
-
-.about .page-wrap, .contact .page-wrap {
-  max-width: 1125px;
-}
-.about .page-wrap h2, .contact .page-wrap h2 {
-  text-align: center;
-  margin: 50px 0 50px;
-}
-.about .page-wrap .block.blue .left, .contact .page-wrap .block.blue .left {
-  box-sizing: border-box;
-}
-.about .page-wrap .block.blue .left h3, .contact .page-wrap .block.blue .left h3 {
-  text-align: right;
-  padding: 40px 20px 0 0;
-}
-
-.howdy {
-  margin-top: -32px;
-}
-
+/* Headings */
 h1, h2, h3, p, ul {
   color: white;
-  font-family: "Solomon-Thin";
+  font-family: "klinic_slablight";
 }
 
 h2 {
   font-size: 52px;
   font-weight: normal;
-  line-height: 0;
-  /* explore this more, it seems like this shouldnt adjiust this */
+  line-height: 48px;
   margin-bottom: 20px;
+  font-family: "klinic_slabmedium";
 }
 
 h3 {
-  font-size: 26px;
-  font-family: "Solomon-Book";
+  font-size: 40px;
+  font-family: "klinic_slabbook";
+  letter-spacing: .02em;
+  line-height: 0;
 }
 h3.break {
   font-size: 48px;
@@ -715,214 +897,66 @@ h4 span {
 
 ul {
   list-style: none;
-  background: pink;
 }
 
-dl dd
-.button {
-  background: #222222;
-  color: white;
+ul.contact-info {
+  background: rgba(65, 188, 200, 0.5);
+  font-size: 22px;
+  line-height: 36px;
   padding: 20px;
-  font-size: 30px;
-  font-family: "Solomon-Normal";
-  font-weight: normal;
-  transition: all .12s;
-  -webkit-transition: all .12s;
-  /* Safari */
-}
-dl dd
-.button:hover {
-  background: #000;
-  transition: all .05s;
-  -webkit-transition: all .05s;
-  /* Safari */
-  position: relative;
-  top: 5px;
-}
-dl dd
-.button span {
-  font-family: "citizen_slabregular";
-  font-size: 36px;
-  font-weight: thin;
-  position: relative;
-  top: 1px;
-  left: 5px;
-}
-dl dd
-.button.small {
-  font-size: 18px;
-  padding: 15px;
-}
-
-.contain {
-  text-align: center;
-  max-width: 960px;
+  width: 70%;
   margin: 0 auto;
 }
-
-/*******************************
-
-	[#] HEADER 
-
-********************************/
-header {
-  background: url("../images/bg-header.jpg");
-  height: 190px;
-  border-bottom: 1px solid white;
+ul.contact-info img {
+  vertical-align: sub;
+  padding-right: 10px;
 }
 
-.logo {
-  width: 253px;
-  margin-top: 20px;
-  position: relative;
-  z-index: 5;
-  /* don't forget to provide fallback for SVG */
+/* Paragraphs */
+p {
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
-
-/*******************************
-
-	[#] MAIN NAVIGATION 
-
-********************************/
-nav {
-  height: 30px;
-  position: relative;
-  bottom: 108px;
-  font-family: "CubanoRegular";
-}
-nav a {
-  color: #2e5e68;
-  font-size: 30px;
-}
-nav a:hover {
-  color: #222222;
-  transition: all .05s;
-  -webkit-transition: all .05s;
-  /* Safari */
-  position: relative;
-  top: 5px;
-}
-nav .nav-left {
-  float: left;
-  margin-left: 40px;
-}
-nav .nav-left a {
-  margin-right: 80px;
-}
-nav .nav-right {
-  float: right;
-}
-nav .nav-right a {
-  margin-left: 80px;
-}
-
-.page-wrap {
-  max-width: 960px;
-  width: 98%;
-  margin: 0 auto;
-}
-.page-wrap .contain.home {
-  width: 65%;
-  position: relative;
-  top: 70px;
-}
-.page-wrap .contain.home:before {
-  content: '{';
-  font-family: "Solomon-Thin";
-  position: absolute;
-  bottom: -70px;
-  color: white;
-  opacity: .2;
-  left: -100px;
-  font-size: 295px;
-}
-.page-wrap .contain.home:after {
-  content: '}';
-  font-family: "Solomon-Thin";
-  position: absolute;
-  bottom: -70px;
-  color: white;
-  opacity: .2;
-  right: -100px;
-  font-size: 295px;
-}
-.page-wrap .contain.home p {
-  font-size: 26px;
-  line-height: 38px;
-}
-
-.kalee {
-  width: 120px;
-  height: 120px;
-  margin: 25px auto;
-}
-.kalee img {
-  width: 120px;
-  height: 120px;
-}
-
-/*******************************
-
-	[#] LAYOUT 
-
-********************************/
-.block {
-  margin-bottom: 30px;
-}
-.block p {
-  font-size: 18px;
-  margin-bottom: 40px;
-  width: 95%;
-  line-height: 28px;
-}
-.block p:last-child {
+p:last-child {
   margin-bottom: 0;
 }
-.block p.special {
+p.lead {
+  font-size: 26px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+p.special {
   font-family: "citizen_slabregular";
   font-size: 42px;
-  margin: 20px 0 0 110px;
-}
-.block .left {
-  float: left;
-  width: 40%;
-}
-.block .left img {
-  padding: 50px 0 0 40px;
-}
-.block .right {
-  float: right;
-  width: 57%;
-}
-.block.blue {
-  background: url("../images/bg-block-blue.jpg") #3ea7be;
-  padding: 20px;
-  float: left;
-}
-.block.full {
-  width: 100%;
+  margin: 20px 0 0 25%;
 }
 
 /*******************************
 
-	[#] LISTS 
-
+    LISTS 
 ********************************/
+dl {
+  margin: 50px 0 0 0;
+}
 dl dt {
-  font-family: "CubanoRegular";
-  font-size: 30px;
   background: white;
-  padding: 10px;
+  font-family: "klinic_slablight";
+  font-size: 26px;
   text-align: right;
-  display: block;
   float: left;
-  position: relative;
-  top: -10px;
-  left: -5px;
   margin-right: 20px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  top: -3px;
+  left: -5px;
 }
 dl dd {
-  font-family: "Solomon-Book";
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
   font-size: 22px;
   padding: 10px;
   color: white;
@@ -935,27 +969,188 @@ dl dd {
 
 dd.powered {
   background: #BE3E40;
-  width: 56%;
+  width: 50%;
 }
 
 dd.life {
-  background: #7ABD46;
-  width: 92%;
+  background: #588b78;
+  width: 77%;
 }
 
 dd.managed {
-  background: #44BFBA;
-  width: 39%;
+  background: #478591;
+  width: 35%;
 }
 
 dd.works {
   background: #BF9A45;
-  width: 75%;
+  width: 65%;
 }
 
-/*************************
-     WORK BUTTON
-**************************/
+.and {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.title {
+  margin-top: 5px;
+}
+
+.form {
+  text-align: right;
+}
+
+nav {
+  height: 30px;
+  margin-top: -7%;
+  font-family: "klinic_slabbook";
+}
+nav a {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #2e5e68;
+  font-size: 28px;
+  display: inline-block;
+}
+nav a:hover {
+  color: #222222;
+}
+nav .nav-left {
+  float: left;
+  margin-left: 120px;
+}
+nav .nav-left a {
+  margin-right: 80px;
+}
+nav .nav-right {
+  margin-right: 120px;
+  float: right;
+}
+nav .nav-right a {
+  margin-left: 80px;
+}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+}
+
+/* Effect 13: three circles */
+.cl-effect-13 a {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  color: transparent;
+  content: '♦';
+  text-shadow: 0 0 transparent;
+  font-size: .7em;
+  -webkit-transition: text-shadow 0.3s, color 0.3s;
+  -moz-transition: text-shadow 0.3s, color 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before {
+  color: #63c0d2;
+  text-shadow: 10px 0 #87cee8, -10px 0 #88d1b5;
+}
+
+form {
+  margin-left: 18%;
+}
+
+input, label, textarea {
+  display: block;
+  clear: both;
+}
+
+input, textarea {
+  border: 0;
+  background: transparent;
+  border-left: 2px solid #41bcc8;
+  border-bottom: 2px solid #41bcc8;
+  padding: 0 0 0 5%;
+  width: 500px;
+  outline: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+input {
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+textarea {
+  height: 150px;
+}
+
+label {
+  float: left;
+  color: white;
+  font-family: "klinic_slabbook";
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+input, select, textarea {
+  color: #b9553e;
+}
+
+textarea:focus, input:focus {
+  color: #fff;
+}
+
+/* Black Buttons */
+.button {
+  background: #222222;
+  position: relative;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "klinic_slabbook";
+  font-weight: normal;
+  transition: all .25s;
+  -webkit-transition: all .25s;
+  /* Safari */
+  outline: 8px double rgba(65, 188, 200, 0.1);
+  box-shadow: 0 0 0 8px rgba(65, 188, 200, 0.1);
+}
+.button:hover {
+  background: #000;
+}
+.button span {
+  font-family: "citizen_slabregular";
+  font-size: 36px;
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+.button.small {
+  font-size: 18px;
+}
+
+/* Work Button */
 .work {
   background: #3e9e77;
   color: #fff;
@@ -1009,71 +1204,66 @@ dd.works {
   background: #78caa9;
 }
 
-.formfloat {
-  float: left;
-  margin-bottom: 20px;
+header {
+  width: 100%;
+  background: #fff;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
-label {
-  color: white;
-  font-size: 24px;
-  font-family: "citizen_slabregular";
-  padding: 0 0 20px 0;
+header img {
+  width: 203px;
+  position: relative;
+  z-index: 5;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
-input, textarea {
-  margin-top: 10px;
-  width: 60%;
-  min-width: 500px;
-  box-sizing: border-box;
-}
-
-input {
-  float: left;
-  padding: 20px;
-}
-
-input, textarea {
-  width: 100;
-}
-
-figure span {
-  text-decoration: strike-through;
-}
-
-.social {
-  list-style: none;
-  float: right;
-}
-.social li {
-  padding-bottom: 20px;
-  width: 80px;
-  height: 50px;
-  background: #222222;
-  margin: 3px 0 0 30px;
-  /* Rotate */
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  /* Rotate Origin */
-  -webkit-transform-origin: 0 100%;
-  -moz-transform-origin: 0 100%;
-  -ms-transform-origin: 0 100%;
-  -o-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-.social li:hover {
+ul.social {
   background: red;
-  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 200px;
 }
-.social li a {
-  color: white;
+ul.social li {
+  float: left;
+  text-indent: -9999px;
+  margin-left: 50px;
+  opacity: .75;
+}
+ul.social li.twitter {
+  background: url("../images/icon-social.png") no-repeat 25px 0;
+}
+ul.social li.facebook {
+  background: url("../images/icon-social.png") no-repeat -130px 0px;
+}
+ul.social li.linkedin {
+  background: url("../images/icon-social.png") no-repeat -300px 0px;
+}
+ul.social li.instagram {
+  background: url("../images/icon-social.png") no-repeat -450px 0px;
+}
+ul.social li:hover {
+  opacity: 1;
+}
+ul.social a {
+  display: block;
+  height: 94px;
+  width: 95px;
+}
+
+section {
+  margin: 50px 0 0 0;
 }
 
 footer {
   clear: both;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
 }

@@ -1,41 +1,68 @@
 <?php include('inc/doctype.php'); ?>
 <body class="contact">
-	<?php include('inc/header.php'); ?>
-	<div class="page-wrap">
-		<h2>Contact</h2>
-	<div class="block blue">
-		<div class="left">
-			<h3>Find Me Here</h3>
-		<ul class="social">
-			<li><a href="#">Facebook</a></li>
-			<li><a href="#">Twitter</a></li>
-			<li><a href="#">LinkedIn</a></li>
-			<li><a href="#">Instagram</a></li>
-		</ul>
-		</div>
-		<div class="right">
+<?php include('inc/header.php'); ?>
 
-		<h3>Tell Me More About You</h3>
-		<p>Send me the basic idea of your project. We'll discuss the heavy stuff later.</p>
-				<form>
-					<div class="formfloat">
-			 <label for="name">Name:</label>
-    <input type="text" name="name" id="name" value="" tabindex="1">
-  </div>
-  <div class="formfloat">
-       <label for="name">Email:</label>
-    <input type="text" name="name" id="name" value="" tabindex="1">
-  </div>
-  <div class="formfloat">
-    <label for="textarea">How can I help?:</label>
-    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-  </div>
-    		</form>
-  </div>
-</div>
+<div class="outter">
+	<div class="container">
+		<div class="inner">
+			
+			<h2 class="title center">Contact</h2>
+			<div class="container-pad">
+				<div class="col-5">
+					<figure>
+						<img alt="Columbus Indiana" src="images/infograph-indiana.png">
+						<figcaption>
+						
+							<ul>
+								<li>812.371.7052</li>
+								<li>kleversole@gmail.com</li>
+								<li>kalee_eversole</li>
+							</ul>
+
+							<p><b>Located:</b><br>
+							 Columbus, IN</p>
+						</figcaption>
+					</figure>
+
+				</div><!--end col-->
+				<div class="col-7">
+					<div class="form">
+					<h3>Have Some Work To Be Done?</h3>
+					<p>Let's chat. Throw the idea at me and we'll discuss more later.</p>
+					<form>
+		        <label for="name">Name</label>
+		        	<input type="text" id="name" name="name" placeholder="Your Name">
+		        <label for="email">Email</label>
+		        	<input type="text" id="email" name="email" placeholder="name@email.com">
+		       	<label for="message">Message</label>
+		        	<textarea id="message" name="message" placeholder="Message goes here"></textarea>
+					</form>
+					</div><!--end form div-->
+	
+			
+					</div><!--end col-->
+				</div>
+				</div><!--end box-->
+			</div><!--end outter-->
+
+		<div class="container">
+			<div class="col-12">
+				<section>
+			<h3 class="center">You can also connect with me here</h3>
+			<ul class="social">
+				<li class="twitter"><a href="#" class="twitter">Twitter</a></li>
+				<li class="facebook"><a href="#" class="facebook">Facebook</a></li>
+				<li class="linkedin"><a href="#" class="linkedin">LinkedIn</a></li>
+				<li class="instagram"><a href="#" class="instagram">Instagram</a></li>
+			</ul>
+		</section>
+		</div>
+		</div>
+	
+	</div>
 	</div>
 
-	<?php include('inc/footer.php'); ?>
-	</div><!-- end .page-wrap -->
-</body>
+	<?php include('inc/footer.php'); ?></div>
+	<!-- end .page-wrap -->
+	</body>
 </html>

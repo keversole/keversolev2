@@ -1,0 +1,45 @@
+
+ul.social {
+	background: red;
+	margin-top: 50px;
+	margin-left: 200px;
+
+	li {
+		float: left;
+		text-indent: -9999px;
+		margin-left: 50px;
+		opacity: .75;
+
+		&.twitter {
+				background: url('../images/icon-social.png') no-repeat 25px 0;
+			}
+
+		&.facebook {
+			background: url('../images/icon-social.png') no-repeat -130px 0px;
+		}
+
+		&.linkedin {
+			background: url('../images/icon-social.png') no-repeat -300px 0px;
+		}
+
+		&.instagram {
+			background: url('../images/icon-social.png') no-repeat -450px 0px;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	a {
+		display: block;
+		height: 94px;
+		width: 95px;
+	}
+
+
+}
+
+section {
+	margin: 50px 0 0 0;
+}

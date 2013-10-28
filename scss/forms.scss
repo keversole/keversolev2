@@ -1,0 +1,46 @@
+
+form {
+	margin-left: 18%;
+}
+input, label, textarea {
+	display: block;
+	clear: both;
+}
+
+input, textarea {
+	border: 0;
+	background: transparent;
+	border-left: 2px solid $blue-light;
+	border-bottom: 2px solid $blue-light;
+	padding: 0 0 0 5%;
+	width: 500px;
+	outline: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+}
+
+input {
+	margin-bottom: 20px;
+	height: 60px;
+
+}
+
+textarea {
+	height: 150px;
+}
+
+label {
+	float: left;
+	color: white;
+	font-family: $kin-slbk;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+input, select, textarea{
+    color: #b9553e}
+
+textarea:focus, input:focus {
+    color: #fff;
+}
