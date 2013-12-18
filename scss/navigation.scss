@@ -4,18 +4,28 @@ nav {
 	margin-top: -7%;
 	font-family: $kin-slbk;
 
+			@media screen and (max-width: $med) {
+				font-size: 22px;
+				float: right;
+				margin-right: 120px;
+				margin-top: -80px;
+	}
+
 
 	a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-		color: $main;
-		font-size: 28px;
-		display: inline-block;
+	color: $main;
+	font-size: 28px;
+	display: inline-block;
+
+		@media screen and (max-width: $med) {
+			font-size: 22px;
+	}
 
 		&:hover { 
 			color: $blue;
-
  
 	 	}
 	}
@@ -24,6 +34,11 @@ nav {
 		float: left;
 		margin-left: 120px;
 
+		@media screen and (max-width: $med) {
+			margin-left: 230px;
+			float: left;
+	}
+
 		a {
 			margin-right: 80px;
 		}
@@ -31,6 +46,13 @@ nav {
 	.nav-right {
 		margin-right: 120px;
 		float: right;
+
+		@media screen and (max-width: $med) {
+	
+			float: right;
+			margin: -27px;
+			margin-right: -90px;
+	}
 
 		a {
 			margin-left: 80px;

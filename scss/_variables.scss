@@ -9,14 +9,10 @@ $h2: 22px;
 $l-green: #88D1B5;
 $l-turq: #63C0D2;
 $l-blue: #87CEE8;
+$l-red: #BE3E40;
+$l-gold: #BF9A45;
+
 /* Font Families */
-
-
-/*Remove all of Solomon */
-$s-norm: 'Solomon-Normal';
-$s-book: 'Solomon-Book';
-$s-bold: 'Solomon-Bold';
-$s-thin: 'Solomon-Thin';
 
 $cuba: 	'CubanoRegular';
 $slab: 'citizen_slabregular';
@@ -25,3 +21,13 @@ $kin-bold: 'klinic_slabbold';
 $kin-slbk: 'klinic_slabbook';
 $kin-light:'klinic_slablight';
 $kin-med: 'klinic_slabmedium';
+
+/* Media Queries */
+
+$sml: 380px;
+$med: 740px;
+$lrg: 1200px;
+
+
+/* Extendors */
+

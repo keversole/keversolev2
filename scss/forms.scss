@@ -1,10 +1,7 @@
-
-form {
-	margin-left: 18%;
-}
 input, label, textarea {
 	display: block;
 	clear: both;
+
 }
 
 input, textarea {
@@ -13,10 +10,10 @@ input, textarea {
 	border-left: 2px solid $blue-light;
 	border-bottom: 2px solid $blue-light;
 	padding: 0 0 0 5%;
-	width: 500px;
+	width: 100%;
 	outline: 0;
 	font-family: 'Lato', sans-serif;
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 100;
 }
 
@@ -39,7 +36,7 @@ label {
 }
 
 input, select, textarea{
-    color: #b9553e}
+    color: #fff; }
 
 textarea:focus, input:focus {
     color: #fff;

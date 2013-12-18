@@ -1,93 +1,105 @@
-/* Black Buttons */
 
-.button {
-	background: $blue;
-	position: relative;
-	color: $white;
-	padding: 20px;
-	
-	font-size: 30px;
-	font-family: $kin-slbk;
-	font-weight: normal;
+// /* Work Button */ 
 
-  	transition: all .25s;
-	-webkit-transition: all .25s; /* Safari */
+// .work {
+// 	background: $green;
+// 	color: #fff;
+// 	font-family: $cuba;
+// 	font-size: 55px;
+// 	float: right;
+// 	z-index: 100;
+// 	width: 80%;
+// 	margin-right: 5px;
+// 	position: relative;
+// 	padding: 20px 0 20px 0;
+// 	text-align: center;
+// 	border-top: 6px solid lighten($green, 10%);
+// 	border-left: 6px solid lighten($green, 10%);
+// 	&:before {
+// 		content: "";
+// 		background: url('../images/bg-block-green.jpg') lighten($green, 15%);
+// 		z-index: -20;
+// 		position: absolute;
+// 		 height: 150px;
+//      width: 350px;
+//      left: 15%;
+//      border-radius: 345px 345px 0 0;
+//      -moz-border-radius: 345px 345px 0 0;
+//      -webkit-border-radius: 345px 345px 0 0;
+//      /*fix with compass */
+// 	}
+// 	 &:after {
+// 		content: "";
+// 		position: absolute;
+// 		top: 0px;
+// 		left: 0px;	
+// 		z-index: -10;
+// 		width: 100%;
+// 		height: 100%;
+// 			opacity: .8;
+// 		border-right: 6px solid darken($green, 10%);
+// 	  border-bottom: 6px solid darken($green, 10%);
+// 	}
+// 	&:hover {
+// 		color: #111;
+// 		border-top: 6px solid darken($green, 10%);
+// 	  border-left: 6px solid darken($green, 10%);
+// 	}
+//    &:hover:after {
+// 	border-right: 6px solid lighten($green, 10%);
+// 	border-bottom: 6px solid lighten($green, 10%);
+// 	}
+// 	&:hover:before {
+// 		background: lighten($green, 20%);
+// 	}
+// }
 
-	outline: 8px double rgba($blue-light,.1);
-    box-shadow:
-		0 0 0 8px rgba($blue-light, .1);
+button {
+	background: transparent;
+	border: 0;
+	border-left: 2px solid $l-blue;
+	outline: 0;
+	border-bottom: 2px solid $l-blue;
+	margin-right: 30px;
+	height: 65px;
+	color: #fff;
+	padding: 0 0 0 1%;
+	width: 40%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		// text-transform: uppercase;
+		font-size: 25px;
+
+		a {
+			color: #fff;
+		}
 
 	&:hover {
-		background: #000;
-	}
+		border-top: 5px solid #fff;
+		border-right: 5px solid #fff;
+	-webkit-transition: all .25s;
+		height: 60px;
 
-	span {
-		font-family: $slab;
-		font-size: 36px;
-		position: relative;
-		top: 3px;
-		left: 5px;
+	a {
+		color: $l-blue;
 	}
-
-	&.small {
-		font-size: 18px;
 	}
-
 }
 
-
-/* Work Button */ 
-
-.work {
-	background: $green;
-	color: #fff;
-	font-family: $cuba;
-	font-size: 55px;
+.submit {
 	float: right;
-	z-index: 100;
-	width: 80%;
-	margin-right: 5px;
-	position: relative;
-	padding: 20px 0 20px 0;
-	text-align: center;
-	border-top: 6px solid lighten($green, 10%);
-	border-left: 6px solid lighten($green, 10%);
-	&:before {
-		content: "";
-		background: url('../images/bg-block-green.jpg') lighten($green, 15%);
-		z-index: -20;
-		position: absolute;
-		 height: 150px;
-     width: 350px;
-     left: 15%;
-     border-radius: 345px 345px 0 0;
-     -moz-border-radius: 345px 345px 0 0;
-     -webkit-border-radius: 345px 345px 0 0;
-     /*fix with compass */
-	}
-	 &:after {
-		content: "";
-		position: absolute;
-		top: 0px;
-		left: 0px;	
-		z-index: -10;
-		width: 100%;
-		height: 100%;
-			opacity: .8;
-		border-right: 6px solid darken($green, 10%);
-	  border-bottom: 6px solid darken($green, 10%);
-	}
+	margin: 5% 0 0 10%;
+	padding: 0 0 0 1%;
+	width: 20%;
+	color: #fff;
+	font-size: 20px;
+	height: 40px;
+
 	&:hover {
-		color: #111;
-		border-top: 6px solid darken($green, 10%);
-	  border-left: 6px solid darken($green, 10%);
-	}
-   &:hover:after {
-	border-right: 6px solid lighten($green, 10%);
-	border-bottom: 6px solid lighten($green, 10%);
-	}
-	&:hover:before {
-		background: lighten($green, 20%);
+		border-top: 5px solid #fff;
+	border-right: 5px solid #fff;
+	-webkit-transition: all .25s;
+	color: $blue-light;
 	}
 }
 

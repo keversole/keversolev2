@@ -19,8 +19,8 @@
 				I do both UI design and front-end development. I have a husband, a son, 3 cats and a mad love for 
 				black coffee.
 			</p>
-			<button>View My Work</button>
-			<button>Work With Me</button>
+			<button><a title="Kalee's Work" href="work.php">View My Work</a></button>
+			<button><a title="Kalee's Work" href="contact.php">Work With Me</a></button>
 			</div><!--end col-->
 		</div><!--end inner-->
 	 </div><!--end outter-->
@@ -71,7 +71,7 @@
 </div>
 
 
-
+<div class="clear"></div>
 <?php include('inc/footer.php'); ?></div>
 <!-- end .page-wrap -->
 </body>

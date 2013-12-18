@@ -1,5 +1,5 @@
 html, body {
-     background: url(../images/bg.jpg);
+   background: url(../images/bg.jpg);
 
 }
 
@@ -17,3 +17,6 @@ html, body {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+.clear {
+	clear: both;
+}

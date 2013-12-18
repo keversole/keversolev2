@@ -9,9 +9,18 @@ h1, h2, h3, p, ul {
 h2 {
 	font-size: 52px;
 	font-weight: normal;
-		line-height: 48px;
+	line-height: 48px;
 	margin-bottom: 20px;
 	font-family: $kin-med;
+
+	@media screen and (max-width: $lrg) {
+		font-size: 48px;
+}
+
+	@media screen and (max-width: $sml) {
+		font-size: 32px;
+		line-height: 40px;
+	}
 }
 
 h3 {
@@ -19,6 +28,12 @@ h3 {
 	font-family: $kin-slbk;
 	letter-spacing: .02em;
 	line-height: 0;
+
+	@media screen and (max-width: $sml) {
+		font-size: 22px;
+		line-height: 32px;
+}
+	
 	&.break {
 		font-size: 48px;
 		font-weight: normal;
@@ -28,18 +43,14 @@ h3 {
 
 
 h4 {
-	font-family: $s-norm;
+	font-family: $kin-med;
 	color: #fff;
-	font-size: 28px;
+	font-size: 36px;
 	font-weight: normal;
-	letter-spacing: 1px;
-	text-align: right;
-	span {
-		font-size: 16px;
-		display: block;
-		font-family: $s-thin;
-	}
+	padding: 0;
 }
+
+/* Lists */
 
 ul {
 	list-style: none;
@@ -58,59 +69,34 @@ ul.contact-info {
 	}
 }
 
-/* Paragraphs */
-
-p {
-	font-size: 24px;
-	line-height: 40px;
-	margin-bottom: 20px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100;
-
-
-	&:last-child {
-	margin-bottom: 0;
-	}
-
-	&.lead {
-	font-size: 26px;
-	line-height: 42px;
-	margin-bottom: 40px;
-}
-
-	&.special {
-		font-family: $slab;
-		font-size: 42px;
-		margin: 20px 0 0 25%;
-	}
-}
-
-
-
-/*******************************
-
-    LISTS 
-********************************/
 
 dl {
 	margin: 50px 0 0 0;
+
+			@media screen and (max-width: $lrg) {
+			font-size: 22px;
+			width: 90%;
+			padding-left: 20px;
+		}
+
 	dt {
+		background: $white;
+		font-family: $kin-light;
+		font-size: 26px;
+		text-align: right;
+		
+		float: left;
+		margin-right: 20px;
+		padding: 10px;
+		display: block;
 
-	background: $white;
-	font-family: $kin-light;
-	font-size: 26px;
-	text-align: right;
-	
-	float: left;
-	margin-right: 20px;
-	padding: 10px;
-	display: block;
+		position: relative;
+		top: -3px;
+		left: -5px;
 
-	position: relative;
-	top: -3px;
-	left: -5px;
-
-	// box-shadow: 2px 2px 2px #000;
+		@media screen and (max-width: $med) {
+			font-size: 22px;
+	}
 
 }
 	dd {
@@ -131,22 +117,121 @@ dl {
 dd.powered {
 	background: #BE3E40;
 	width: 50%;
+
+	@media screen and (max-width: $med) {
+		width: 90%;
+		font-size: 18px;
+	}
+
+	@media screen and (max-width: $sml) {
+		@include def-list;
+	}	
 }
 
 dd.life {
 	background: #588b78;
 	width: 77%;
+
+	@media screen and (max-width: $lrg) {
+		font-size: 22px;
+		width: 90%;
+	}
+
+	@media screen and (max-width: $med) {
+		width: 90%;
+		font-size: 15px;
+	}
+
+	@media screen and (max-width: $sml) {
+		@include def-list;
+	}	
 }
 
 dd.managed {
 	background: #478591;
 	width: 35%;
+	
+	@media screen and (max-width: $lrg) {
+		font-size: 22px;
+		width: 40%;
+	}
+
+	@media screen and (max-width: $med) {
+		width: 90%;
+		font-size: 18px;
+	}
+
+	@media screen and (max-width: $sml) {
+		@include def-list;
+	}	
 }
 
 dd.works {
 	background: #BF9A45;
 	width: 65%;
+
+	@media screen and (max-width: $lrg) {
+		font-size: 22px;
+		width: 74%;
+	}
+
+	@media screen and (max-width: $med) {
+			width: 90%;
+			font-size: 18px;
+	}
+
+	@media screen and (max-width: $sml) {
+		@include def-list;
+	}
+
 }
+
+/* Paragraphs */
+
+p {
+	font-size: 24px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+
+	@media screen and (max-width: $sml) {
+		font-size: 18px;
+		line-height: 34px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	&:last-child {
+	margin-bottom: 0;
+	}
+
+	&.lead {
+	font-size: 26px;
+	line-height: 42px;
+	margin-bottom: 40px;
+
+	@media screen and (max-width: $lrg) {
+		font-size: 22px;
+		line-height: 38px;
+		margin-bottom: 30px;
+	}
+
+	@media screen and (max-width: $sml) {
+		font-size: 20px;
+		line-height: 34px;
+		padding-right: 5%;
+	}
+}
+
+	&.special {
+		font-family: $slab;
+		font-size: 42px;
+		margin: 20px 0 0 25%;
+	}
+}
+
+/* Reusable Classes */
 
 .and {
 	font-family: 'Lato', sans-serif;
@@ -154,7 +239,7 @@ dd.works {
 }
 
 .title {
-	margin-top: 5px;
+	margin: 0 0 35px;
 }
 
 .form {

@@ -9,12 +9,18 @@ header {
 }
 
 header img {
-width: 203px;
+	width: 203px;
 	position: relative;
 	z-index: 5;
 	max-width: 100%;
 	max-height: 100%;
 	display: block;
+
+		@media screen and (max-width: $med) {
+			display: inline;
+			margin-left: 20px;
+	}
+
 	margin: 0 auto;
 	padding-top: .5%;
 	padding-bottom: .5%;

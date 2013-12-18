@@ -1,0 +1,10 @@
+
+@mixin def-list {
+	font-size: 18px;
+	line-height: 32px;
+	clear: both;
+
+	margin-left: -5px;
+	position: relative;
+	top: -5px;
+}

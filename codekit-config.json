@@ -2,27 +2,16 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
-    "\/images\/about-kalee.png" : {
+    "\/images\/work-ktube-thumb.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about-kalee.png",
+      "inputAbbreviatedPath" : "\/images\/work-ktube-thumb.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about-kalee.png",
-      "initialSize" : 201157,
+      "outputAbbreviatedPath" : "\/images\/work-ktube-thumb.png",
+      "initialSize" : 84774,
       "fileType" : 8192
-    },
-    "\/images\/wonderful.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/wonderful.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/wonderful.jpg",
-      "initialSize" : 769406,
-      "fileType" : 4096
     },
     "\/images\/icon-contact-phone.png" : {
       "ignoreWasSetByUser" : 0,
@@ -34,17 +23,6 @@
       "outputAbbreviatedPath" : "\/images\/icon-contact-phone.png",
       "initialSize" : 1112,
       "fileType" : 8192
-    },
-    "\/images\/its-a-wonderful-life-3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/its-a-wonderful-life-3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/its-a-wonderful-life-3.jpg",
-      "initialSize" : 1027482,
-      "fileType" : 4096
     },
     "\/scss\/_icon-fonts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -68,17 +46,6 @@
       "outputAbbreviatedPath" : "\/images\/icon-figure.png",
       "initialSize" : 2329,
       "fileType" : 8192
-    },
-    "\/images\/about-kalee.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about-kalee.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about-kalee.jpg",
-      "initialSize" : 43268,
-      "fileType" : 4096
     },
     "\/scss\/forms.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -132,15 +99,15 @@
       "initialSize" : 159572,
       "fileType" : 8192
     },
-    "\/scss\/_variables.scss" : {
+    "\/scss\/grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_variables.scss",
+      "inputAbbreviatedPath" : "\/scss\/grid.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_variables.css",
+      "outputAbbreviatedPath" : "\/css\/grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -167,15 +134,15 @@
       "initialSize" : 2303045,
       "fileType" : 4096
     },
-    "\/scss\/grid.scss" : {
+    "\/scss\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/grid.scss",
+      "inputAbbreviatedPath" : "\/scss\/_variables.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/grid.css",
+      "outputAbbreviatedPath" : "\/css\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -213,26 +180,15 @@
       "initialSize" : 1511652,
       "fileType" : 4096
     },
-    "\/images\/me.jpg" : {
+    "\/images\/work-cookmedical-thumb.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/me.jpg",
+      "inputAbbreviatedPath" : "\/images\/work-cookmedical-thumb.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/me.jpg",
-      "initialSize" : 112024,
-      "fileType" : 4096
-    },
-    "\/images\/wonky.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/wonky.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/wonky.png",
-      "initialSize" : 1740942,
+      "outputAbbreviatedPath" : "\/images\/work-cookmedical-thumb.png",
+      "initialSize" : 148026,
       "fileType" : 8192
     },
     "\/inc\/nav.php" : {
@@ -241,49 +197,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/inc\/nav.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/images\/bg-block-blue.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bg-block-blue.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bg-block-blue.jpg",
-      "initialSize" : 2216,
-      "fileType" : 4096
-    },
-    "\/images\/ornicept_concept.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/ornicept_concept.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/ornicept_concept.png",
-      "initialSize" : 33843,
-      "fileType" : 8192
-    },
-    "\/scss\/buttons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/buttons.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/buttons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/contact.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/contact.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -297,6 +210,47 @@
       "outputAbbreviatedPath" : "\/images\/kalee.png",
       "initialSize" : 397979,
       "fileType" : 8192
+    },
+    "\/images\/ornicept_concept.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/ornicept_concept.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/ornicept_concept.png",
+      "initialSize" : 33843,
+      "fileType" : 8192
+    },
+    "\/contact.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/contact.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work-single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work-single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/buttons.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -321,6 +275,17 @@
       "outputAbbreviatedPath" : "\/css\/global.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/work-cook-screen1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/work-cook-screen1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/work-cook-screen1.jpg",
+      "initialSize" : 185854,
+      "fileType" : 4096
     },
     "\/js\/animheader.js" : {
       "ignoreWasSetByUser" : 0,
@@ -376,17 +341,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/bg-main.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bg-main.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bg-main.jpg",
-      "initialSize" : 2376,
-      "fileType" : 4096
-    },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -406,6 +360,17 @@
       "outputAbbreviatedPath" : "\/images\/bg-header.jpg",
       "initialSize" : 3488,
       "fileType" : 4096
+    },
+    "\/images\/icon-contact.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icon-contact.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icon-contact.png",
+      "initialSize" : 1570,
+      "fileType" : 8192
     },
     "\/images\/clouds2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -441,17 +406,6 @@
       "initialSize" : 1122304,
       "fileType" : 4096
     },
-    "\/images\/icon-contact.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icon-contact.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icon-contact.png",
-      "initialSize" : 1570,
-      "fileType" : 8192
-    },
     "\/images\/clouds3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -474,16 +428,17 @@
       "initialSize" : 1202,
       "fileType" : 4096
     },
-    "\/images\/bedfordfalls.jpg" : {
+    "\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bedfordfalls.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bedfordfalls.jpg",
-      "initialSize" : 1674356,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/scss\/_mixins.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -515,17 +470,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/clouds4.jpg",
       "initialSize" : 1255658,
-      "fileType" : 4096
-    },
-    "\/images\/bg-block-green.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bg-block-green.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bg-block-green.jpg",
-      "initialSize" : 1622,
       "fileType" : 4096
     },
     "\/images\/icon-contact-mail.png" : {
@@ -606,17 +550,6 @@
       "initialSize" : 6450,
       "fileType" : 8192
     },
-    "\/images\/kaleeintheflesh.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/kaleeintheflesh.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/kaleeintheflesh.jpg",
-      "initialSize" : 72490,
-      "fileType" : 4096
-    },
     "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -646,17 +579,6 @@
       "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/images\/cbus.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/cbus.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/cbus.jpg",
-      "initialSize" : 161177,
-      "fileType" : 4096
     },
     "\/images\/icon-contact-twittersm.png" : {
       "ignoreWasSetByUser" : 0,

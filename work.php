@@ -1,40 +1,52 @@
 <?php include('inc/doctype.php'); ?>
-<body class="about">
-	<?php include('inc/header.php'); ?>
-	<div class="page-wrap">
-		<h2>Work</h2>
-	<div class="block blue">
-		<div class="left">
-			<div class="howdy">
-				<img src="images/about-kalee.png" alt="Photo of Kalee Eversole"/>
-				<p class="special">Howdy.</p>
-			</div>
-		</div>
+<body class="contact">
+<?php include('inc/header.php'); ?>
 
-	</div>
+<div class="outter">
+	<div class="container">
+		<div class="inner">
+			
+			<h2 class="title center">Work</h2>
+			<div class="container">
+				<div class="col-4">
+					 <div class="work-thumb">
+							<a href="work-single.php">
+								<img alt="Columbus Indiana" src="images/work-cookmedical-thumb.png">
+									<span>Cook Medical Public Website</span></a>
+						</div>
+				</div><!--end col-->
 
-		<div class="block blue">
-		<div class="left">
-			<div class="howdy">
-				<img src="images/about-kalee.png" alt="Photo of Kalee Eversole"/>
-				<p class="special">Howdy.</p>
-			</div>
-		</div>
+				<div class="col-4">
+						 <div class="work-thumb">
+							<a href="cookmedical.php">
+								<img alt="Columbus Indiana" src="images/work-ktube-thumb.png">
+									<span>K-Tube</span></a>
+						</div>
+					</div><!--end col-->
 
-	</div>
+					<div class="col-4">
+		 				<div class="work-thumb">
+							<a href="cookmedical.php">
+								<img alt="Columbus Indiana" src="images/work-cookmedical-thumb.png">
+									<span>Cook Medical Public Website</span></a>
+						</div>
+					</div><!--end col-->
+				</div>
+				</div><!--end box-->
+			</div><!--end outter-->
 
-		<div class="block blue">
-		<div class="left">
-			<div class="howdy">
-				<img src="images/about-kalee.png" alt="Photo of Kalee Eversole"/>
-				<p class="special">Howdy.</p>
-			</div>
-		</div>
-
-	</div>
-	<div class="block">
+		<div class="container">
+			<div class="col-12">
+				<section>
 		
-	<?php include('inc/footer.php'); ?>
-	</div><!-- end .page-wrap -->
-</body>
+		</section>
+		</div>
+		</div>
+	
+	</div>
+	</div>
+
+	<?php include('inc/footer.php'); ?></div>
+	<!-- end .page-wrap -->
+	</body>
 </html>
