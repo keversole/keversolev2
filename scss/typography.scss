@@ -18,8 +18,11 @@ h2 {
 }
 
 	@media screen and (max-width: $sml) {
-		font-size: 32px;
+		font-size: 36px;
 		line-height: 40px;
+		padding: 2%;
+		text-align: center;
+		margin: 0;
 	}
 }
 

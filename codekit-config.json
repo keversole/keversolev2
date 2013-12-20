@@ -36,6 +36,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/work.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/work.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/work.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/images\/icon-figure.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -68,6 +80,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/css\/responsive-nav.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/responsive-nav.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/scss\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -99,18 +120,6 @@
       "initialSize" : 159572,
       "fileType" : 8192
     },
-    "\/scss\/grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/grid.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -120,6 +129,18 @@
       "outputStyle" : 1,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/layout.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/grid.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -200,17 +221,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/kalee.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/kalee.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/kalee.png",
-      "initialSize" : 397979,
-      "fileType" : 8192
-    },
     "\/images\/ornicept_concept.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -220,6 +230,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/ornicept_concept.png",
       "initialSize" : 33843,
+      "fileType" : 8192
+    },
+    "\/images\/kalee.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/kalee.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/kalee.png",
+      "initialSize" : 397979,
       "fileType" : 8192
     },
     "\/contact.php" : {
@@ -251,6 +272,17 @@
       "outputAbbreviatedPath" : "\/css\/buttons.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/responsive-nav.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/responsive-nav.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/responsive-nav-ck.js",
+      "fileType" : 64
     },
     "\/scss\/footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -372,17 +404,6 @@
       "initialSize" : 1570,
       "fileType" : 8192
     },
-    "\/images\/clouds2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/clouds2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/clouds2.jpg",
-      "initialSize" : 535432,
-      "fileType" : 4096
-    },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 0,
@@ -406,15 +427,15 @@
       "initialSize" : 1122304,
       "fileType" : 4096
     },
-    "\/images\/clouds3.jpg" : {
+    "\/images\/clouds2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/clouds3.jpg",
+      "inputAbbreviatedPath" : "\/images\/clouds2.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/clouds3.jpg",
-      "initialSize" : 1284061,
+      "outputAbbreviatedPath" : "\/images\/clouds2.jpg",
+      "initialSize" : 535432,
       "fileType" : 4096
     },
     "\/images\/bg.jpg" : {
@@ -439,6 +460,17 @@
       "outputAbbreviatedPath" : "\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/clouds3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/clouds3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/clouds3.jpg",
+      "initialSize" : 1284061,
+      "fileType" : 4096
     },
     "\/scss\/typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -579,6 +611,17 @@
       "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/responsive-nav.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/responsive-nav.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/responsive-nav.min-ck.js",
+      "fileType" : 64
     },
     "\/images\/icon-contact-twittersm.png" : {
       "ignoreWasSetByUser" : 0,

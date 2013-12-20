@@ -1,0 +1,130 @@
+
+
+/* Work - Thumbnails */
+
+.work-thumb {
+  img {
+    max-width: 100%;
+    float: left;
+    margin: 0 0 0 10px;
+
+  @media screen and (max-width: $sml) {
+    margin: 0 0 -6px 6px;
+    float: none;
+  }
+}
+  a {
+    color: #fff;
+    font-family: $kin-med;
+    font-size: 24px;
+    display: block;
+    height: 400px;
+
+    @media screen and (max-width: $sml) {
+      height: auto;
+      width: 90%;
+      margin-bottom: 7%;
+      display: inline-block;
+  }
+
+
+    span {
+      background: #b9553e;
+      margin: 0 0 0 10px;
+      padding: 20px;
+      width: 95%;
+      float: left;
+      text-align: center;
+
+      @media screen and (max-width: $sml) {
+        padding: 10px;
+        margin: -1px 0 0 6px;
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+/* Work - Single */
+
+aside {
+  position: fixed;
+  width: 200px;
+  margin-left: -20px;
+  top: 175px;
+
+  background: lighten(#32222d, 5%);
+
+
+  h3 {
+    background: #b9553e;
+    padding: 10px 10px 20px 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    margin: 0;
+  }
+
+  ul {
+    margin-left: -20px;
+  }
+
+  ul li {
+
+   &:before {
+    content: "♦";
+    padding-right: 5px;
+  }
+
+  &.html:before {
+    color: $l-blue;
+  }
+
+  &.css:before {
+    color: $l-green;
+  }
+
+  &.cms:before {
+    color: $l-red;
+  }
+
+  &.design:before {
+    color: $l-gold;
+  }
+
+}
+
+  ul, a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+  }
+}
+
+.work-controls {
+  a {
+    background: $blue-light;
+    color: #fff;
+    width: 49%;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italics;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+
+    &:hover {
+      background: #000;
+      transition: all .15s;
+    }
+  }
+}
+
+.work-wrap {
+  background: red;
+  position: relative;
+}

@@ -1,4 +1,4 @@
-<nav>
+<nav class="nav-collapse">
 	<div class="nav-left cl-effect-13">
 		<a href="index.php">About</a>
 		<a href="work.php">Work</a>

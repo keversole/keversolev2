@@ -3,8 +3,6 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
-
-
   
   &:after {
     /* Or @extend clearfix */
@@ -31,7 +29,12 @@
 .col-1 { width: 6.25%; }
 .col-2 { width: 14.5833333333%; }
 .col-3 { width: 22.9166666667%; }
-.col-4 { width: 31.25%; }
+.col-4 { width: 31.25%; 
+@media screen and (max-width: $sml) {
+    width: 100%;
+  }
+}
+
 .col-5 { width: 39.5833333333%; }
 .col-6 { width: 47.9166666667%; }
 .col-7 { width: 56.25%;

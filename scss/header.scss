@@ -21,6 +21,12 @@ header img {
 			margin-left: 20px;
 	}
 
+		@media screen and (max-width: $sml) {
+			width: 153px;
+			margin-left: 25%;
+			margin-top: 4%;
+	}
+
 	margin: 0 auto;
 	padding-top: .5%;
 	padding-bottom: .5%;
